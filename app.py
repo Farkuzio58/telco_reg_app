@@ -49,6 +49,4 @@ if st.button("Predecir"):
     if y_pred_proba > 0.5:
         st.error(f"El cliente tiene una alta probabilidad de churn: {y_pred_proba:.2f}")
     else:
-        st.success(f"El cliente tiene una baja probabilidad de churn: {y_pred_proba:.2f}")a probabilidad de churn: {y_pred_proba:.2f}")
-    else:
         st.success(f"El cliente tiene una baja probabilidad de churn: {y_pred_proba:.2f}")
